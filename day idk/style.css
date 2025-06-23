@@ -1,9 +1,42 @@
-.hello{
+.box1{
     height: 200px;
     width: 200px;
     position: absolute;
+    left: 0;
+    z-index: 3;
     background-color: red;
 }
-p{
+.box2{
+    height: 200px;
+    width: 200px;
     position: absolute;
+    top:20px;
+    left: 30px;
+    z-index: 2;
+    background-color: yellow;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:40px;
+    left: 60px;
+    z-index: 1;
+    background-color: green;
+}
+
+.relative{
+    height: 500px;
+    width: 500px;
+    border: solid;
+    position: relative;
+}
+
+.r-child{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
