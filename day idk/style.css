@@ -60,7 +60,7 @@
 
 } */
 
-.box{
+/* .box{
     background-color: red;
     height: 400px;
     width: 50vh;
@@ -75,4 +75,23 @@
     background-color: yellow;
     height: 300px;
     width: 60vh;
+} */
+
+
+
+body{
+
+}
+
+.bx{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    transition: all 1s ease-in 0s;
+}
+
+.bx:hover{
+    width: 500px;
+    /* transform: rotate(300deg); */
+    /* transform: scale(2); */
 }
