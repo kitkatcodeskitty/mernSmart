@@ -50,6 +50,12 @@
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
+ background-color: black;
+ background-blend-mode: lighten;
 }
 
+.c-bx{
+    backdrop-filter: blur(15px);
+
+}
 
