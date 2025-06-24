@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> -->
     <!-- <div class="box1">
 
     </div>
@@ -47,8 +47,67 @@
 
 
 
-    <div class="bx">
+    <!-- <div class="bx">
         
     </div>
 </body> 
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candle Animation</title>
+  <style>
+    body {
+      background-color: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .candle {
+      position: relative;
+      width: 20px;
+      height: 100px;
+      background-color: #fff5cc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #fff5cc;
+    }
+
+    .flame {
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 30px;
+      background: radial-gradient(ellipse at center, #ffcc00 0%, #ff6600 100%);
+      border-radius: 50% 50% 50% 50%;
+      animation: flicker 0.15s infinite alternate;
+      opacity: 0.9;
+      box-shadow: 0 0 20px #ff9900;
+    }
+
+    @keyframes flicker {
+      0% {
+        transform: translateX(-50%) scale(1);
+        opacity: 0.8;
+        box-shadow: 0 0 20px #ff9900;
+      }
+      100% {
+        transform: translateX(-50%) scale(1.1);
+        opacity: 1;
+        box-shadow: 0 0 25px #ffaa00;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="candle">
+    <div class="flame"></div>
+  </div>
+</body>
 </html>
