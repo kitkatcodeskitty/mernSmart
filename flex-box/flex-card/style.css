@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: rgb(226, 226, 225);
+    text-align: center;
+    padding: 10px;
+
+}
+
+.box{
+    display: flex;
+    height: 400px;
+
+    justify-content: space-evenly;
+
+}
+
+.card{
+    background-color: white;
+    max-height: 350px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+
+
+.image1{
+    background-image: url("https://i.pinimg.com/736x/19/92/7e/19927e0cd52a361bb8e026cca1acc29b.jpg");
+    height: 200px;
+    border-radius: 4px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: start;
+    padding-left: 10px;
+}
+
+.description{
+    font-size: 16px;
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image2{
+    background-image: url("https://i.pinimg.com/736x/50/96/4d/50964dd2dde0828247aaf26f697f93aa.jpg");
+    height: 200px;
+    border-radius: 4px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image3{
+    background-image: url("https://i.pinimg.com/736x/a7/b7/f6/a7b7f61a57010c61d418455260cc56c8.jpg");
+    height: 200px;
+    border-radius: 4px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
